@@ -45,10 +45,8 @@ def predict_word(word):
         token_list = tokenizer.texts_to_sequences([word])[0]
         token_list = pad_sequences([token_list], maxlen=max_sequence_len-1, padding='pre')
         
-        # Use model.predict instead of model.predict_classes
         predicted_probabilities = model.predict(token_list, verbose=0)
         
-        # Find the index of the word with the highest probability
         predicted_index = np.argmax(predicted_probabilities)
         
         output_word = ""
