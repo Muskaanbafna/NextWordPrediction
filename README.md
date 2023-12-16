@@ -1,5 +1,5 @@
  NEXT WORD PREDICTION MODEL
-* This is a project which helps use to predict the next word in a sentence.
+* This is a project which helps us to predict the next word in a sentence.
 
 * This project is based on the NLP (Natural Language Processing) and RNN (Recurrent Neural Network) model.
 
